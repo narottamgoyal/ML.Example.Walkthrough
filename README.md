@@ -60,7 +60,7 @@ Precision =  ---------
 
 ## Voting Classifier
 1. Hard
-    - Average(mean)
+    - Mean/Average/Median (Regression) & Majority (classifier) of result
     
 2. Soft
     - result with percentage
@@ -96,3 +96,50 @@ Precision =  ---------
     - Hyper parameter optimization/tunning
  
 5. Test the Model
+
+## Normalization (required when equidian distance is calculated, not required in decision tree) 
+1. Scalar
+```
+                X - Xmean
+ScalarValue = ------------
+                 Xstd
+```
+
+2. MinMax
+```
+                 X - Xmin
+minMax Value =  -----------
+                 Xmax - Xmin
+```
+
+
+
+```
+y = mx + c
+c = intercept
+m = slope
+x = independent feature
+y = dependent feature
+
+
+c = y - mx
+
+m = r * (SdY / SdX)
+
+     1
+r = ---------------- * (Sum of (Xi - Xm) * (Yi - Ym))
+    (n-1)(SdY * SdX)
+    
+SdY = standard devision of Y
+Ym = Y mean
+Xm = X mean
+
+                                  1
+standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
+                                (n-1)
+```
+
+## how to find outlier
+1. box plot
+2. scatter plot
+3. Z-Score
