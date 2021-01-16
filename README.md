@@ -113,7 +113,6 @@ minMax Value =  -----------
 ```
 
 
-
 ```
 y = mx + c
 c = intercept
@@ -143,3 +142,31 @@ standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
 1. box plot
 2. scatter plot
 3. Z-Score
+
+# Activation Function
+1. Sigmoid AF (o/p will be in b/w 0 to 1)
+    - Final/output layer of classification
+
+```
+ 1 / 1 + e-y
+```
+
+2. Threshold Activation (o/p will be in b/w -1 to 1)
+
+3. Rectified liner unit (Relu) (o/p will be max(0, z)) 
+    - Regresion - 
+    - middle/hiddle layer of classifcaiton
+    
+## Loss function
+    sum of (y- y^)2
+    
+## Back propagation
+    Update the wights
+    
+```
+ Wnew =  W.old - learningRate * derivative of loss/derrivstive of weight
+```
+
+## Optimizer
+- Gradient descent
+- Stochastic Gradient descent
