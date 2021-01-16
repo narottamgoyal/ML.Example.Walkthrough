@@ -170,3 +170,13 @@ standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
 ## Optimizer
 - Gradient descent
 - Stochastic Gradient descent
+
+## ANN (Artifical neural network) - data is in text format
+    - Regression
+    - Classification
+
+## CNN (Convolutional neural network) - data is images or video frames
+    - objection detection / classification
+    - face classification / Recoginzation
+    
+## Data Augmentation - used to fake images or produce sinthetic data
