@@ -3,6 +3,8 @@
 Decision tree, SVM, and KNN 
 Naive Bayes classifier
 
+# Sparx Metrics - many zero's (0) and very few one's (1)
+
 ## convert 30(column) features to 2
 * PCA(principle component analysis)
 
@@ -65,7 +67,7 @@ Precision =  ---------
 2. Soft
     - result with percentage
 
-## XbBoost will be used to do hyperParameter optimization
+## XgBoost will be used to do hyperParameter optimization
 
 
 
@@ -144,7 +146,7 @@ standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
 3. Z-Score
 
 # Activation Function
-1. Sigmoid AF (o/p will be in b/w 0 to 1)
+1. Sigmoid AF (o/p will be in b/w 0 to 1) - (soft max)
     - Final/output layer of classification
 
 ```
@@ -178,5 +180,21 @@ standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
 ## CNN (Convolutional neural network) - data is images or video frames
     - objection detection / classification
     - face classification / Recoginzation
-    
-## Data Augmentation - used to fake images or produce sinthetic data
+
+## RNN (Recurrent neural network) - Sequence of data (example Scentence in NLP), TimeSeries
+
+## NLP technique
+    - BOW (bag of Word)
+        - dis advantage : Not much simentic information
+    - TF-IDF
+        - advantage : bit of simentic information
+    - Word2Vec
+    - Word Embeding - Feature Representation
+
+## Data Augmentation - used to generate fake images or produce synthetic data
+
+## To solve exploding and vanishing gradient problem - Use LSTM (Long short term memory)
+
+## Cosine similarilty - Used in Recomdation Applications
+
+https://teachablemachine.withgoogle.com/train
