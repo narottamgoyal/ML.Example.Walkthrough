@@ -8,6 +8,10 @@ Naive Bayes classifier
 ## convert 30(column) features to 2
 * PCA(principle component analysis)
 
+## Hyper parameter tunning
+    - Lasso
+    - Rige
+
 ## ImBalance data set problem
 1. NearMis is for under sampling
 2. SmotoTemk is for over sampling
@@ -198,3 +202,8 @@ standard devision X = sqr of ( ---------- * Sum of (Xi - Xm))
 ## Cosine similarilty - Used in Recomdation Applications
 
 https://teachablemachine.withgoogle.com/train
+
+
+## NLTK
+    - Stemming (not meaning full words - sentiment analysis/ classification / mail spam classifier) - not human readable
+    - lemmatization (Chat bots/ question & answer applications) - human readable
